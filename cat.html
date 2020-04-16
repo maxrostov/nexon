@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<meta charset="UTF-8">
+<meta content="width=device-width" id="viewport" name="viewport">
+<title>СтройКомплект-Кавказ</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap&subset=cyrillic"
+      rel="stylesheet">
+<link href="css/bulma_grid.css" rel="stylesheet">
+<link href="css/owl.carousel.min.css" rel="stylesheet">
+<link href="css/owl.theme.default.min.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+</head>
+
+<body>
+<!-- header  -->
+<div class="row">
+    <div class="block header">
+        <div class="columns">
+            <div class="column header_logo_column">
+                <div class="pda_menu desktop_hide" onclick="hamburger_toggle()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="/"
+                ><img class="header_logo_big mob_hide" src="gfx/logo_skk.png"
+                /></a>
+                <a href="/"
+                ><img
+                        class="header_logo desktop_hide"
+                        src="gfx/logo_skk_small.png"
+                /></a>
+            </div>
+            <div class="column mob_hide">
+                <form action="" class="header_search_form">
+                    <input class="header_search" type="text"/>
+                    <button
+                            class="header_search_submit"
+                            type="submit"
+                    >
+                        <img alt="" src="gfx/ico_search.png"/>
+                    </button>
+                </form>
+            </div>
+            <div class="column header_phone_column">
+                <a class="header_phone" href="tel:+7-918-554-56-61">+7-918-554-56-61</a>
+            </div>
+            <div class="column header_column_btn">
+                <a class="btn" href="#">Заказать звонок</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row row_nav">
+    <div class="block nav" id="nav">
+        <form action="" class="header_search_form nav_search">
+            <input class="header_search" type="text"/>
+            <button class="header_search_submit" type="submit">
+                <img alt="" src="gfx/ico_search.png"/>
+            </button>
+        </form>
+        <a href="cat.html">Металлорежущее оборудование</a>
+        <a href="#">Листообрабатывающее оборудование</a>
+        <a href="#">Электроэррозионное обрудование</a>
+        <a href="#">Компрессоры</a>
+        <a href="#">Новости</a>
+    </div>
+</div>
+<div class="block cat_columns">
+    <div class="cat_filter">
+        <h2>Металлорежущее оборудование</h2>
+
+        <div class="cat_filter_toggle" onclick="$('#cat_filter_wrapper').toggle('fast')">
+            <img class="cat_filter_icon" src="gfx/ico_filter.png">
+        </div>
+        <div class="cat_filter_wrapper" id="cat_filter_wrapper">
+            <div class="cat_filter_name">machining center</div>
+            <div class="cat_filter_value">
+                <input id="input1" name="" type="checkbox"><label for="input1">5 axis</label>
+            </div>
+            <div class="cat_filter_value">
+                <input id="input2" name="" type="checkbox"><label for="input2">5 axis</label>
+            </div>
+
+
+            <div class="cat_filter_name">vertical machining center</div>
+            <div class="cat_filter_value">
+                <input id="input3" name="" type="checkbox"><label for="input3">linear</label>
+            </div>
+            <div class="cat_filter_value">
+                <input id="input4" name="" type="checkbox"><label for="input4">gear head</label>
+            </div>
+
+            <div class="cat_filter_name">double column machining center</div>
+            <div class="cat_filter_value">
+                <input id="input5" name="" type="checkbox"><label for="input5">16 series</label>
+            </div>
+            <div class="cat_filter_value">
+                <input id="input6" name="" type="checkbox"><label for="input6">12 series</label>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="cat_listing">
+        <!--    <h2 class="mob_hide">Металлорежущее оборудование</h2>-->
+
+        <div class="cat_item">
+            <a href="item.html"><img class="cat_item_img" src="gfx/product1.png"></a>
+             <br>
+            <div class="cat_item_model">VL-550</div>
+            <a class="btn cat_item_call" href="#">Запросить цену</a><br>
+            <a class="btn cat_item_more" href="item.html">Подробнее</a>
+        </div>
+
+        <div class="cat_item">
+            <a href="item.html"><img class="cat_item_img" src="gfx/product2.png"></a>
+            <div class="cat_item_model">VL-550</div>
+            <a class="btn cat_item_call" href="#">Запросить цену</a><br>
+            <a class="btn cat_item_more" href="item.html">Подробнее</a>
+        </div>
+
+        <div class="cat_item">
+            <a href="item.html"><img class="cat_item_img" src="gfx/product3.png"></a>
+            <div class="cat_item_model">VL-550</div>
+            <a class="btn cat_item_call" href="#">Запросить цену</a><br>
+            <a class="btn cat_item_more" href="#">Подробнее</a>
+        </div>
+
+
+        <div class="cat_item">
+            <a href="item.html"><img class="cat_item_img" src="gfx/product1.png"></a>
+            <div class="cat_item_model">VL-550</div>
+            <a class="btn cat_item_call" href="#">Запросить цену</a><br>
+            <a class="btn cat_item_more" href="#">Подробнее</a>
+        </div>
+
+
+        <div class="cat_item">
+            <img class="cat_item_img" src="gfx/product3.png"> <br>
+            <div class="cat_item_model">VL-550</div>
+            <a class="btn cat_item_call" href="#">Запросить цену</a><br>
+            <a class="btn cat_item_more" href="#">Подробнее</a>
+        </div>
+
+
+        <div class="cat_item">
+            <img class="cat_item_img" src="gfx/product2.png"> <br>
+            <div class="cat_item_model">VL-550</div>
+            <a class="btn cat_item_call" href="#">Запросить цену</a><br>
+            <a class="btn cat_item_more" href="#">Подробнее</a>
+        </div>
+
+
+    </div>
+
+
+</div>
+<div class="block">
+    <div class="cat_pagination">
+        <a class="cat_pagination_item" href="#">1</a>
+        <a class="cat_pagination_item cat_pagination_item_active" href="#">2</a>
+        <a class="cat_pagination_item" href="#">3</a>
+    </div>
+</div>
+
+
+<!-- /index  -->
+<!-- footer  -->
+<div class="row row_foot">
+    <div class="block foot">
+        <div class="columns">
+            <div class="column">
+                <img alt="" class="foot_logo" src="gfx/logo_skk_white.png"/>
+                <br/>
+                Индивидуальные <br/>промышленные решения
+            </div>
+            <div class="column">
+                <img alt="" class="footer_ico" src="gfx/ico_home.png"/><a
+                    href="/"
+            ><b>Главная</b></a
+            >
+                <br/>
+                <a href="cat.html"> Металлорежущее оборудование</a><br/>
+                <a href="cat.html"> Листообрабатывающее оборудование</a><br/>
+                <a href="cat.html"> Электроэррозионное обрудование</a><br/>
+                <a href="cat.html"> Компрессоры</a>
+            </div>
+            <div class="column">
+                <img alt="" class="footer_ico" src="gfx/ico_mail.png"/><b
+            >Email</b
+            ><br/>
+
+                nexson2016@mail.ru<br/>
+                <img alt="" class="footer_ico" src="gfx/ico_phone.png"/><b
+            >Телефон:</b
+            >
+                <br/>
+                8 (863) 292-80-00<br/>
+                +7-918-554-56-61<br/>
+            </div>
+            <div class="column">
+                <img alt="" class="footer_ico" src="gfx/ico_address.png"/><b
+            >Адрес</b
+            >
+                <br/>
+                344091 г. Ростов-на-Дону <BR/> пр. Машиностроительный 9а <br/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- /footer  -->
+</body>
+<script src="js/main.js"></script>
+</html>
+
+</html>
